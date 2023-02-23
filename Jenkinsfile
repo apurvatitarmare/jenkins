@@ -12,7 +12,7 @@ sh "git clone https://github.com/apurvatitarmare/jenkins.git"
 
 stage ("stage-2")   {
 steps  {
-sh "cp -r /root/.jenkins/workspace/pipeline/jenkins/index.html /var/www/html"
+sh "cp -r /root/.jenkins/workspace/as-6/jenkins/index.html /var/www/html"
 }
 
 }
