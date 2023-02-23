@@ -5,14 +5,14 @@ stages{
 
 stage ("stage-1")   {
 steps {
-sh "git clone https://github.com/apurvatitarmare/velo.git"
+sh "git clone https://github.com/apurvatitarmare/jenkins.git"
 
 }
 }
 
 stage ("stage-2")   {
 steps  {
-sh "cp -r /root/.jenkins/workspace/pipeline/velo/index.html /var/www/html"
+sh "cp -r /root/.jenkins/workspace/pipeline/jenkins/index.html /var/www/html"
 }
 
 }
